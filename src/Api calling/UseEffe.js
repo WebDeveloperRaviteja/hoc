@@ -11,8 +11,13 @@ const UseEffe = () => {
   return (
     <div>
       {data.map((item) => <p key={item.id}>{item.title}</p>)}
+
+      title = "new commit";
+      commitdate ="16-6-2020"
     </div>
   )
 }
 
 export default UseEffe;
+
+// hii this is changed
